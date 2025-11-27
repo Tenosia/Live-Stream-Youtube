@@ -1,37 +1,69 @@
-# shaders
+# Shaders
 
-![Licence](https://img.shields.io/github/license/essenbee/z80emu)
-![Twitch](https://img.shields.io/twitch/status/codebasealpha)
-![Twitter](https://img.shields.io/twitter/follow/codebasealpha?label=Follow&style=social)
+A collection of GLSL shaders created during live coding streams. This repository contains various shader projects ranging from simple 2D effects to complex 3D terrain rendering with advanced lighting and atmospheric effects.
 
-On-stream GLSL code created to introduce shaders.
+## Overview
 
-The .klproj files are Kodelife project files, so you will need to download the IDE from here: https://hexler.net. Its a fantastic IDE for developing and experimenting with shaders.
+This project includes shader code in multiple formats:
+- **Kodelife project files** (`.klproj`) - For use with the Kodelife IDE
+- **ShaderToy GLSL files** (`.glsl`) - Ready to use on ShaderToy.com
+- **Web examples** - HTML files demonstrating how to embed shaders in web pages
 
-The GLSL files are ready for using ShaderToy (https://shadertoy.com). They can also be embedded into webpages using the example files to be found in the `/shadertoy` or `/shadertoy 2` directories: `index.html` and `webgl-driver.js`.
+## Getting Started
 
-### YouTube
+### Kodelife Projects
 
-The videos of the live-stream Shader episodes are archived on YouTube [here](https://www.youtube.com/channel/UCFFtfkaWjMb9UMDpPVnC1Sg). Please subscribe to my YouTube channel to get notified when new videoes are uploaded. Subscribing is free and it helps me out a lot.
+The `.klproj` files are Kodelife project files. To use them, download the Kodelife IDE from [hexler.net](https://hexler.net). Kodelife is a fantastic IDE for developing and experimenting with shaders in real-time.
 
-### Files in this Repository
+### ShaderToy
 
-- **codebasealpha1.klproj**: a basic 2D shader that clearly shows the distance field (see Epidode 61)
-- **codebasealpha2.klproj**: a 2D kaleidoscopic shader, with added hypnotic effect! (see Epidode 61)
-- **codebasealpha3.klproj**: soft-colliding spheres - a basic 3D shader (see Epidode 63)
-- **codebasealpha4.klproj**: a highly reflective 3D shader! (see Epidode 64)
-- **codebasealpha5.klproj**: another 3D shader featuring a shiny cube-like object.
-- **codebasealpha6.klproj**: version 1 of our fantastic mountain terrain shader, featuring mountains, snow, forests and fog (see Episodes 65 and 67)
-- **codebasealpha7.klproj**: sun, sea and sky (experiental shader where we work on waves and clouds)
-- **codebasealpha8.klproj**: clouds, clouds and clouds!
-- **codebasealpha9.klproj**: version 2 of the mountain terrain shader - with lakes and clouds added, looks great I think (see Episode 69)
-- **codebasealpha10.klproj**: creating a shader for use on-stream; beginning with making fire and smoke, we build a rocket-powered Alf emote that flies up the screen (see Episode 73)
-- **codebasealpha11.klproj**: text-based shader project (see Episode 75)
-- **TerrainShaderToy.glsl**: version 1 of our terrain shader, built for use in ShaderToy.com
-- **TerrainCloudsWaterShaderToy.glsl**: version 2 of our terrain shader, built for use in ShaderToy.com. This version has lakes and clouds.
-- **codebasealpha12.klproj**: a truly electrifying 2D shader! (see Episode 80)
+The `.glsl` files are ready to use on [ShaderToy.com](https://shadertoy.com). Simply copy the code into a new shader on the ShaderToy website.
 
-Most of the shaders above are also to be found on ShaderToy, under my username, which is of course, `codebasealpha`.
+### Web Integration
 
-During Episode 75, I set up a static Github.io website to host some of the shaders developed for my stream. This repository can be found here: https://github.com/essenbee/essenbee.github.io
+Example HTML files demonstrating how to embed shaders in web pages can be found in:
+- `/shadertoy` directory
+- `/shadertoy 2` directory
+- `/CodebaseLightning` directory
+- `/Lightspeed` directory
+
+Each directory contains `index.html` and `webgl-driver.js` files that show how to integrate shaders into web applications.
+
+## Shader Projects
+
+### 2D Shaders
+
+- **codebasealpha1.klproj**: Basic 2D shader demonstrating distance field visualization (Episode 61)
+- **codebasealpha2.klproj**: 2D kaleidoscopic shader with hypnotic effects (Episode 61)
+- **codebasealpha12.klproj**: Electrifying 2D lightning shader (Episode 80)
+- **codebasealpha.glsl**: Kaleidoscopic pattern shader with polar coordinate transformations
+
+### 3D Shaders
+
+- **codebasealpha3.klproj**: Soft-colliding spheres - basic 3D shader (Episode 63)
+- **codebasealpha4.klproj**: Highly reflective 3D shader (Episode 64)
+- **codebasealpha5.klproj**: 3D shader featuring a shiny cube-like object
+
+### Terrain Shaders
+
+- **codebasealpha6.klproj**: Mountain terrain shader v1 - features mountains, snow, forests, and fog (Episodes 65 and 67)
+- **codebasealpha9.klproj**: Mountain terrain shader v2 - enhanced with lakes and clouds (Episode 69)
+- **TerrainShaderToy.glsl**: Terrain shader v1 for ShaderToy.com
+- **TerrainCloudsWaterShaderToy.glsl**: Terrain shader v2 for ShaderToy.com with lakes and clouds
+
+### Atmospheric and Effects Shaders
+
+- **codebasealpha7.klproj**: Sun, sea, and sky - experimental shader working on waves and clouds
+- **codebasealpha8.klproj**: Cloud rendering shader
+- **codebasealpha10.klproj**: Rocket-powered animated shader with fire and smoke effects (Episode 73)
+- **codebasealpha11.klproj**: Text-based shader project (Episode 75)
+
+## Web Examples
+
+The repository includes several web-based examples:
+
+- **shadertoy/**: Basic shader embedding example
+- **shadertoy 2/**: Alternative shader embedding example
+- **CodebaseLightning/**: Lightning effect shader demonstration
+- **Lightspeed/**: Volumetric rendering shader with space tunnel effects
 
